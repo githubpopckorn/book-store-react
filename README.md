@@ -1,11 +1,67 @@
 # React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+# Library ⚛️📚
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicación para buscar libros y agregarlo a tu lista de deseos
+
+
+## Stack
+
+ - React
+ - Vite
+ - Zustand
+ - Wouter
+
+
+## Authors
+
+- [@githubpopckorn](https://github.com/githubpopckorn)
+
+
+## Develop
+
+Para levantar el proyecto debes
+
+```bash
+  cd ./project-folder
+```
+
+```bash
+  npm install
+```
+
+```bash
+  npm run dev
+```
+
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Fullscreen mode
+- Cross platform
+
+
+## Feedback
+
+Si tienes algun feedback o recomendación puedes encontrarme en santy_lopez@live.com.ar
+
+
+## 🚀 About Me
+Full stack developer...
+
+
+## License
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+## Screenshots
+
+![App Screenshot](./public/images/demo-1.png)
+
 
 ## Expanding the ESLint configuration
 

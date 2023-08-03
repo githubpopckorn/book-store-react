@@ -22,7 +22,7 @@ export default function BooksGrid() {
               <div className="flex ml-2">
                 {wishList.includes(book.ISBN) ? (
                   <button onClick={() => removeBook(book.ISBN)}
-                    className="bg-red-500 shadow-[2px_3px_0px_rgba(0,0,0,1)]p-1 rounded border border-black px-2 font-bold text-white hover:bg-red-600
+                    className="bg-red-500 shadow-[2px_3px_0px_rgba(0,0,0,1)] p-1 rounded border border-black px-2 font-bold text-white hover:bg-red-600
                     hover:translate-x-0 transition duration-200 ease-in-out hover:-translate-y-1 hover:scale-110 transform">
                     Quitar
                   </button>

@@ -3,7 +3,6 @@ import { ChangeEvent } from "react"
 import Select, { SingleValue } from 'react-select'
 import { IFilter } from "../domain/filter"
 import { useBooks } from '../store/useBooks'
-import { useWishList } from '../store/useWishList'
 
 export interface Props {
     filter: IFilter,
@@ -13,7 +12,6 @@ export interface Props {
 
 export default function NavBar() {
     const { filter, setFilter, genderes } = useBooks()
-    const { wishList } = useWishList()
 
     const handleFilter = (e: ChangeEvent<HTMLInputElement>) => {
         const name = e.target.name;
@@ -85,14 +83,6 @@ export default function NavBar() {
                     Reiniciar filtros
                 </button>
             </section>
-            <section>
-                <ul>
-                    {wishList.map((ISBN) => (
-                        <li key={ISBN}>{ISBN}</li>
-                    ))}
-                </ul>
-            </section>
-
         </nav>
     )
 }
